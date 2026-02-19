@@ -1,0 +1,27 @@
+
+
+Create DATABASE property24;
+
+go
+
+create table Property_Details ( 
+COUNTRY varchar (250),
+PROVINCE varchar (250),
+CITY varchar (250),
+PROPERTY_PRICE int,
+BEDROOMS int ,
+BATHROOMS int,
+PARKING int,
+FLOOR_SIZE int,
+Monthly_Repayment int,
+Total_Once_Off_Costs int,
+Min_Gross_Monthly_Income int
+
+)
+
+----INset col 
+---values 
+
+insert into Property_Details(COUNTRY,PROVINCE,CITY,PROPERTY_PRICE,BEDROOMS,BATHROOMS,PARKING,FLOOR_SIZE,Monthly_Repayment,Total_Once_Off_Costs,Min_Gross_Monthly_Income)
+
+ VALUES ('South Africa', 'Gauteng','Sandton',1 3750,3,1,87,13497,84538,13497,84538,44991) 
